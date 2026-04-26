@@ -48,6 +48,18 @@ An AI-powered tool for automatically detecting and identifying watermarks in ima
 
 ---
 
+### Examples
+
+### Image + YOLO Example
+
+![Image Example](example_img.jpg)
+
+### Video + Florence-2 + SAM2 Example
+
+![Video Example](example_vid.jpg)
+
+---
+
 ## 🚀 Installation & Setup
 
 ### 1. Requirements
@@ -184,18 +196,6 @@ python main.py --input <input_file_or_directory> --output <output_directory> [op
 | `--iou-threshold`    | `0.45`  | YOLO IOU threshold.                       |
 | `--Single Detection` | Enabled | Use fast detection mode.                  |
 | `--Yolo Image Size`  | `640`   | Image size used for YOLO model inference. |
-
----
-
-### Examples
-
-### Image + YOLO Example
-
-![Image Example](example_img.jpg)
-
-### Video + Florence-2 + SAM2 Example
-
-![Video Example](example_vid.jpg)
 
 ---
 
