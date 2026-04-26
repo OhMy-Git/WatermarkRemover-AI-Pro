@@ -1,0 +1,15 @@
+# 忽略文件
+*.md linguist-documentation
+
+# 忽略 notebook（最重要）
+*.ipynb linguist-generated
+
+# 忽略 src（如果你真的不想算）
+src/** linguist-vendored
+
+# 忽略模型權重（避免被算成 binary）
+weights/** linguist-generated
+models/** linguist-generated
+
+# 忽略虛擬環境
+venv*/** linguist-vendored

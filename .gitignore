@@ -1,0 +1,14 @@
+# Directories to ignore
+__pycache__/
+.vscode/
+venv/
+venv31210/
+
+# Project-specific directories
+output_webui/
+
+# Model files - assuming they are large and shouldn't be in git
+models/big-lama.pt
+models/yolo.pt
+weights/groundingdino_swinb_cogcoor.pth
+weights/sam2_hiera_large.pt
