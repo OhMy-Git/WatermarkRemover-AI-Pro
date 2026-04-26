@@ -50,13 +50,14 @@ An AI-powered tool for automatically detecting and identifying watermarks in ima
 
 ### Examples
 
-### Image + YOLO Example
-
-![Image Example](example_img.jpg)
-
 ### Video + Florence-2 + SAM2 Example
 
 ![Video Example](example_vid.jpg)
+
+
+### Image + YOLO Example
+
+![Image Example](example_img.jpg)
 
 ---
 
